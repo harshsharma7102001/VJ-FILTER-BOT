@@ -26,7 +26,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 PICS = (environ.get('PICS', 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOuTp-1SpAmFqNWxwS1mPeXdZGQkgHTaXlbtaaPIBfJx8VM4uxoec2o1zuvvmnkDD874ZK3FHMcBFap-CaAZIpRjB61n62MZ9oePEp_RxAb1uKQ2QAHdq4w4LB80_Z0faz1vIRdP514qeBxNeiSlrBMapWHpgaVGHK8EirhrhZt_3DWfyRQOmZ_XHhchQg/s320/DALL%C2%B7E%202024-10-12%2015.58.00%20-%20A%20mysterious%20figure%20stands%20in%20the%20dark,%20wearing%20a%20long,%20dark%20coat%20and%20holding%20a%20suitcase.%20The%20figure%20is%20partially%20illuminated,%20revealing%20the%20outline%20o.webp')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
+MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/cctuitorial1")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
@@ -66,7 +66,7 @@ PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟ�
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'Harsh_raj1') # owner username without @
 
 # Clone Information : If Clone Mode Is True Then Bot Clone Other Bots.
-CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
+CLONE_MODE = bool(environ.get('CLONE_MODE',False )) # Set True or False
 CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "mongodb+srv://harshsharma7102001:d9aDFhISwH1anjMT@cluster0.ug5ca.mongodb.net/?retryWrites=true&w=majority") # Necessary If clone mode is true
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'clonedata') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
